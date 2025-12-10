@@ -1,0 +1,3 @@
+"""
+FastAPI User Management Application
+"""
