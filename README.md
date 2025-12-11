@@ -2,7 +2,7 @@
 
 A secure FastAPI application with user authentication, SQLAlchemy ORM, Pydantic validation, and comprehensive testing.
 
-[![CI/CD Pipeline](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci-cd.yml)
+[![CI/CD Pipeline](https://github.com/BhavanaVuttunoori/webapi_Assignment_10/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/BhavanaVuttunoori/webapi_Assignment_10/actions/workflows/ci-cd.yml)
 
 ## 🚀 Features
 
@@ -26,8 +26,8 @@ A secure FastAPI application with user authentication, SQLAlchemy ORM, Pydantic 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
+   git clone https://github.com/BhavanaVuttunoori/webapi_Assignment_10.git
+   cd webapi_Assignment_10
    ```
 
 2. **Create a virtual environment**
@@ -192,18 +192,18 @@ pytest -v
 
 The Docker image is automatically built and pushed to Docker Hub on every successful commit to the main branch.
 
-**Docker Hub Repository**: [https://hub.docker.com/r/YOUR_USERNAME/user-management-api](https://hub.docker.com/r/YOUR_USERNAME/user-management-api)
+**Docker Hub Repository**: [https://hub.docker.com/r/bhavanavuttunoori/user-management-api](https://hub.docker.com/r/bhavanavuttunoori/user-management-api)
 
 ### Pull and Run the Image
 
 ```bash
 # Pull latest image
-docker pull YOUR_USERNAME/user-management-api:latest
+docker pull bhavanavuttunoori/user-management-api:latest
 
 # Run the container
 docker run -p 8000:8000 \
   -e DATABASE_URL=postgresql://postgres:postgres@localhost:5432/userdb \
-  YOUR_USERNAME/user-management-api:latest
+  bhavanavuttunoori/user-management-api:latest
 ```
 
 ## 🔄 CI/CD Pipeline
@@ -291,9 +291,9 @@ This project is part of an academic assignment and is available for educational 
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- Email: your.email@example.com
+**Bhavana Vuttunoori**
+- GitHub: [@BhavanaVuttunoori](https://github.com/BhavanaVuttunoori)
+- Repository: [webapi_Assignment_10](https://github.com/BhavanaVuttunoori/webapi_Assignment_10)
 
 ## 🙏 Acknowledgments
 
